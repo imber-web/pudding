@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "composite": true,
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "allowSyntheticDefaultImports": true
+    "composite": true, //启用允许将类型脚脚本项目与项目引用一起使用的约束
+    "module": "ESNext", //指定所生成的模块代码
+    "moduleResolution": "Node", // 指定TypeScript如何从给定的模块指定符中查找文件
+    "allowSyntheticDefaultImports": true //当模块没有默认导出时，允许“从y导入x”
   },
-  "include": ["vite.config.ts"]
+  "include": ["vite.config.ts"] //只编译的文件
 }
